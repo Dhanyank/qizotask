@@ -21,6 +21,12 @@ profileForm = this.fb.group({
 submit()
 {
   alert("SUCCESSFULLY CREATED..........");
+  this.router.navigateByUrl("dashboard")
+}
+edit()
+{
+  this.router.navigateByUrl("profile")
+
 }
   
 }

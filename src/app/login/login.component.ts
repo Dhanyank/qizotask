@@ -29,6 +29,6 @@ export class LoginComponent implements OnInit {
   login()
   {
     alert("Login successfully.........")
-    this.router.navigateByUrl("profile")
+    this.router.navigateByUrl("dashboard")
   }
 }

@@ -1,0 +1,32 @@
+<div class="container col-md-12 mt-0">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div class="card-header">
+                <h3 appHighight class="text-center">MOBILE NUMBER VERIFICATION</h3>
+
+            </div>
+            <div class="card-body">
+                <form [formGroup]=getotpForm (ngSubmit)="getotp()">
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">+91</span>
+
+                        </div>
+                        <input type="mobno" name="pswd" formControlName="pswd" class="form-control"
+                            placeholder="Mobile Number">
+                    </div>
+
+
+                        <!-- <p style="color:white;align-items:baseline;">Forget password? <a routerLink=""></a></p> -->
+                        <div class="form-group">
+
+                            <input type="submit" value="GET OTP" class="btn float-right login_btn " style="width:50%">
+                    
+                        </div>    
+                </form>
+            </div>
+            <!-- <p style="color:white;align-items:baseline;">Don't have an account? <a routerLink="register">Register</a></p> -->
+
+        </div>
+    </div>
+</div>

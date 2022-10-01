@@ -1,0 +1,50 @@
+<nav class="navbar navbar-light bg-dark ">
+    <a class="navbar-brand  " href="#" style="color:rgb(85, 98, 237);"><b>&#169; EBZOL.... </b></a>
+    
+
+    <br>
+
+</nav>
+
+<div class="container col-md-12 mt-0">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div class="card-header">
+                <h3 appHighight class="text-center">Sign In</h3>
+
+
+                <div class="card-body">
+                    <form (ngSubmit)="login()">
+                        <div class="input-group form-group">
+
+                            <label for="cname">Company Name</label>
+
+                            <input type="text" name="cname" formControlName="cname" class="form-control" placeholder="">
+                        </div>
+                        <div class="input-group form-group">
+                            <label for="category">Category</label>
+
+                            <input type="text" name="category" formControlName="cat" class="form-control"
+                                placeholder="">
+                        </div>
+                        <div class="input-group form-group">
+                            <label for="pswd">Password</label>
+
+                            <input type="password" name="pswad" formControlName="pswd" class="form-control"
+                                placeholder="">
+                        </div>
+                        <div class="input-group form-group">
+                            <label for="category">Confirm Password</label>
+
+                            <input type="password" name="cpswd" formControlName="cpswd" class="form-control"
+                                placeholder="">
+                        </div>
+
+                        <input type="submit" value="Register" class="btn float-right login_btn " style="width:50%">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

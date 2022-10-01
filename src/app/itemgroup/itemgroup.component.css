@@ -1,0 +1,11 @@
+.style1{
+    opacity: 0;
+}
+.card{
+    height: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(121, 112, 112, 0.7) !important;
+    }
+    
